@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Xiaoting Yu's Profolio
+    </title>
+
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <main>
+        <Header>
+    <nav class="topnav" id="profolioTopnav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contact">Contact</a>  
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+    </nav>
+        <h1>Xiaoting Yu</h1>
+    </Header>
+    <div id="aboutsection">
+        <!--ABOUT SECTION-->
+      
+      <a href="https://research.qut.edu.au/dmrc/people/xiaoting-yu/" target="_blank">
+        <figure>
+        <img src="IMG_0569.JPG" width="200" height="200" alt="photo">
+        <figcaption>Nice to meet you!幸会！</figcaption>
+        </figure>
+      </a>
+      <h2 class="Heading uppercase" id="About">About</h2>
+      <p>
+          I am a Phd candidate of <em>Digital Media Research Centre, Queensland University of Technology</em>. My research focus on the <strong>social media entertainment industry in China</strong>. As a researcher I am interested in how <strong>technology empower/influence people</strong> and how the entangled relationships among different stakeholders initiate changes in the <strong>industry</strong>.
+      </p>
+      
+    </div>
+      <!--SKILLS SECTION-->
+      <div id="skillsection">
+      <h3 id="skills">Skills</h3>
+      <h4>Research Skills</h4>
+      <ul class="list"> 
+          <li>Data collection and analysis</li>
+          <li>Report writing</li>
+          <li>Critical thinking</li>
+          <li>Field investigation</li>
+          <li>Strategic analysis</li>
+      </ul>
+      <h4>Interpersonal Skills</h4>
+      <ul class="list">
+            <li>Empathy and awareness</li>
+            <li>Cross-cultural communication</li> 
+            <li>Interviewing</li>
+            <li>Project coordination</li>
+      </ul>
+      <h4>Technical Skills</h4>
+        <ul class="list">
+            <li>Softwares Proficiency</li>
+            <li>Project management</li>
+            <li>Creative apps</li>
+            <li>Social media marketing</li>
+        </ul>
+    </div>
+    <div id="accomplishementsection">
+        <!--ACCOMPLISHMENT SECTION-->
+        <h3 id="accomplishments">Accomplishments</h3>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">Publications</th>
+                <th scope="col">Awards</th>
+                <th scope="col">Presentations</th>
+            </tr>
+            <tr>
+                <th scope="row">Content</th>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+        </table>
+    </div>
+    <div id=quizsection>
+<!--ACCOMPLISHMENT SECTION-->
+<h3 id="accomplishments">Coding Examples</h3>
+<a href="quiz.html" target="_blank">Take the Portfolio Quiz!”</a>
+    </div>
+    <div id="contactsection">
+        <!--CONTACT SECTION-->
+      <h3 id="contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/xiaoting-yu-313637147/" target="_blank">LinkedIn</a> 
+    <br>
+    <br>
+      <form>
+        <label for="Name">*Name:</label>
+        <br>
+        <br>
+        <input type="text" name="Name" required>
+        <br>
+        <br>
+        <label for="email">*Email:</label>
+        <br>
+        <br>
+        <input type="text" name="email" required>
+        <br>
+        <br>
+        <label for="mobile">Mobile(optional):</label>
+        <input type="text" name="mobile" id="mobile"pattern="[0-9]">
+        <br>
+        <br>
+        <label for="message">*Message me if you are interested in collaboration</label>
+        <br>
+        <br>
+        <textarea id="message" name="message" rows="5"cols="25" required></textarea>
+    <br>
+    <br>
+    <input type="submit">
+    </form>
+    </div>
+</main>
+<script src="./nav.js"></script>
+<script src="./quiz.js"></script>
+</body>
+</html>
